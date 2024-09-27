@@ -106,10 +106,9 @@ export default function CTestimonials() {
 
 // Small utility to highlight the content of specific section of a testimonial content
 export const Highlight = ({ children, className }) => {
-  console.log("classname", className);
-  
   return (
     <span
+      style={{backgroundColor: "transparent"}}
       className={cn(
         "font-bold bg-emerald-100 text-emerald-700 dark:bg-richBlack dark:text-emerald-500 px-1 py-0.5",
       )}
