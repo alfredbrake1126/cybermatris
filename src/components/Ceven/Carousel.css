@@ -1,0 +1,48 @@
+/* Carousel.css */
+.slick-prev,
+.slick-next {
+  background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient background */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 50%; /* Circular shape */
+  height: 50px; /* Button height */
+  width: 50px; /* Button width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1; /* Semi-transparent */
+  transition: opacity 1s ease, transform 1s ease; /* Smooth transitions */
+  box-shadow: 0 4px 8px rgba(243, 243, 243, 0.2); /* Subtle shadow */
+  cursor: pointer; /* Pointer on hover */
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  opacity: 1; /* Full opacity on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none; /* Hide default arrow icons */
+}
+
+/* Position buttons */
+.slick-prev {
+  left: 15px; /* Adjust left position */
+}
+
+.slick-next {
+  right: 15px; /* Adjust right position */
+}
+
+/* Icons */
+.slick-prev::after {
+  content: '◀'; /* Left arrow */
+  font-size: 24px; /* Adjust icon size */
+}
+
+.slick-next::after {
+  content: '▶'; /* Right arrow */
+  font-size: 24px; /* Adjust icon size */
+}
