@@ -3,7 +3,7 @@ import React from 'react'
 function NotFound() {
   return (
     <div className='text-3xl font-bold'>
-        Page Not Available
+        Page Not Available 
     </div>
   )
 }
