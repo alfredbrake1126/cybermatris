@@ -55,7 +55,7 @@ export default function CTestimonials() {
             key={card.id}
             className={`transition-transform duration-300 ease-in-out transform 
               ${isMobile ? "scale-100" : index === 1 ? "scale-110 z-10" : ""} 
-              hover:scale-105 hover:z-20 dark:bg-richBlack rounded-3xl p-6 shadow-xl 
+              hover:scale-105 hover:z-20 bg-white dark:bg-richBlack rounded-3xl p-6 shadow-xl 
               border border-neutral-200 dark:border-white/[0.1] shadow-black/[0.1] 
               dark:shadow-white/[0.05] flex flex-col justify-between 
               ${
@@ -72,10 +72,10 @@ export default function CTestimonials() {
                 {card.content}
               </div>
               <div className="text-center mt-2">
-                <p className="text-neutral-500 font-medium dark:text-white">
+                <p className="text-neutral-500 font-medium dark:text-white" style={{color: "white"}}>
                   {card.name}
                 </p>
-                <p className="text-neutral-400 font-normal dark:text-neutral-200">
+                <p className="text-neutral-400 font-normal dark:text-neutral-200" style={{color: "white"}}>
                   {card.designation}
                 </p>
               </div>
@@ -108,7 +108,7 @@ export default function CTestimonials() {
 export const Highlight = ({ children, className }) => {
   return (
     <span
-      style={{backgroundColor: "transparent"}}
+      style={{backgroundColor: "transparent", color: "#10b981"}}
       className={cn(
         "font-bold bg-emerald-100 text-emerald-700 dark:bg-richBlack dark:text-emerald-500 px-1 py-0.5",
       )}
@@ -125,7 +125,7 @@ const CARDS = [
     designation: "Senior React Developer",
     image: ehsan,
     content: (
-      <p>
+      <p style={{color: "white"}}>
         Webiste is Ay hay hay!{" "}
         <Highlight> Hun ki dasan tenu bus use karo hun anno !!</Highlight> in my
         project!
@@ -139,7 +139,7 @@ const CARDS = [
     designation: "Senior Flutter Developer",
     image: moiz,
     content: (
-      <p>
+      <p style={{color: "white"}}>
         khara jatuk , <Highlight>I want to use them</Highlight> in my project.
       </p>
     ),
@@ -151,7 +151,7 @@ const CARDS = [
     designation: "Senior Citizen",
     image: ajmal,
     content: (
-      <p>
+      <p style={{color: "white"}}>
         Aaa website bus kamal di aa <Highlight> Chasss aa gae jeeh</Highlight>
       </p>
     ),
