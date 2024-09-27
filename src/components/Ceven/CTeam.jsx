@@ -95,7 +95,7 @@ function CTeam() {
       </section>
 
       {/* Tech Team Section */}
-      {/* <section className="container mx-auto pb-4">
+      <section className="container mx-auto pb-4">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white mb-1">
           Our Tech Team
         </h2>
@@ -105,7 +105,7 @@ function CTeam() {
         <div className="flex flex-wrap justify-center">
           <AnimatedTooltip items={team} />
         </div>
-      </section> */}
+      </section>
     </div>
   );
 }
