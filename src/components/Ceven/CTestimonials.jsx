@@ -56,7 +56,7 @@ export default function CTestimonials() {
             className={`transition-transform duration-300 ease-in-out transform 
               ${isMobile ? "scale-100" : index === 1 ? "scale-110 z-10" : ""} 
               hover:scale-105 hover:z-20 dark:bg-richBlack rounded-3xl p-6 shadow-xl 
-              border border-neutral-200 dark:border-white/[0.1] shadow-black/[0.1] 
+              border-neutral-200 dark:border-white/[0.1] shadow-black/[0.1] 
               dark:shadow-white/[0.05] flex flex-col justify-between 
               ${
                 isMobile ? "w-full" : "w-80 md:w-96"
