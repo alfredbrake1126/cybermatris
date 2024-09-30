@@ -82,6 +82,7 @@ const translations = {
       our_address: "Our Address",
       contact_us: "Contact Us",
       copyright: "Cybermatris. All rights reserved.",  
+      number_siren: "Number of Siren",
     },
     fr: {
       welcome: "Bienvenue",
@@ -160,7 +161,8 @@ const translations = {
       revolution: "Révolutionner la technologie dans une application puissante.",
       our_address: "Notre Adresse",
       contact_us: "Contactez-nous",
-      copyright: "Cybermatris. Tous droits réservés.",  
+      copyright: "Cybermatris. Tous droits réservés.",
+      number_siren: "Nombre de sirènes",  
     },
     es: {
       welcome: "Bienvenido",
@@ -239,7 +241,8 @@ const translations = {
       revolution: "Revolucionando la tecnología en una aplicación poderosa.",
       our_address: "Nuestra Dirección",
       contact_us: "Contáctanos",
-      copyright: "Cybermatris. Todos los derechos reservados.",  
+      copyright: "Cybermatris. Todos los derechos reservados.",
+      number_siren: "Número de sirenas",  
     },
     de: {
       welcome: "Willkommen",
@@ -318,7 +321,8 @@ const translations = {
       revolution: "Revolutionierung der Technologie in einer leistungsstarken Anwendung.",
       our_address: "Unsere Adresse",
       contact_us: "Kontaktieren Sie uns",
-      copyright: "Cybermatris. Alle Rechte vorbehalten.",  
+      copyright: "Cybermatris. Alle Rechte vorbehalten.",
+      number_siren: "Anzahl der Sirenen",  
     },
     it: {
       welcome: "Benvenuto",
@@ -397,7 +401,8 @@ const translations = {
       revolution: "Rivoluzionare la tecnologia in un'applicazione potente.",
       our_address: "Il Nostro Indirizzo",
       contact_us: "Contattaci",
-      copyright: "Cybermatris. Tutti i diritti riservati.",  
+      copyright: "Cybermatris. Tutti i diritti riservati.",
+      number_siren: "Numero di sirene",  
     },
   };
   
