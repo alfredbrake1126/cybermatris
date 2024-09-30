@@ -4,10 +4,11 @@ import emily from "../../assets/team/emily.jpg";
 import jessica from "../../assets/team/jessica.jpg";
 import { SparklesCore } from "../ui/sparkles.jsx";
 import { useState, useEffect } from "react";
+import { useLanguage } from "../../LanguageContext.jsx";
 
 export default function CTestimonials() {
   const [isMobile, setIsMobile] = useState(false);
-
+  const {t} = useLanguage();
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
@@ -21,12 +22,12 @@ export default function CTestimonials() {
 
   return (
     <div
-      id="testimonials"
+      id="reviews"
       className="min-h-screen flex flex-col items-center justify-center w-full py-16 px-4 sm:px-6 lg:px-8"
     >
       {/* Heading */}
       <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center text-white relative z-20 mb-8">
-        Client Reviews
+        {t('client_review')}
       </h1>
 
       {/* Decorative Elements */}

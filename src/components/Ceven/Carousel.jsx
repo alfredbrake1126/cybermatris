@@ -12,7 +12,7 @@ import img8 from "../../assets/projects/8.jpg"
 import img9 from "../../assets/projects/9.jpg"
 import img10 from "../../assets/projects/10.jpg"
 import img11 from "../../assets/projects/11.jpg"
-
+import { useLanguage } from "../../LanguageContext";
 import "./Carousel.css"
 
 const images = [
@@ -74,6 +74,7 @@ const images = [
 ];
 
 const Carousel = () => {
+  const {t} = useLanguage();
   const settings = {
     dots: true,
     infinite: true,
@@ -116,9 +117,8 @@ const Carousel = () => {
                     {src.stack}
                 </span>
                 <Link to = {src.website} target="_blank" style={{color: "green", paddingLeft: "30px"}}>
-                    Visit Site
+                    {t('visit_site')}
                 </Link>
-                
             </div>
             ))}
         </Slider>

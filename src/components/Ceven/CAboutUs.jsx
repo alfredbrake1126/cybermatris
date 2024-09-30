@@ -1,52 +1,56 @@
 import React from "react";
 import { SparklesCore } from "../ui/sparkles";
+import { useLanguage } from "../../LanguageContext";
 
-const abuot_us = [
+
+function CAboutUs() {
+  const {t} = useLanguage();
+
+  const abuot_us = [
     {
         id: 1,
-        title: "Cybersecurity Governance",
-        content: "We assist organizations in establishing robust policies and governance frameworks to ensure regulatory compliance and protect information assets. This includes risk assessments, policy development, and employee training.",
+        title: t('cyber_1'),
+        content: t('cyber_1_content'),
     },
     {
         id: 2,
-        title: "Cybersecurity Project Management",
-        content: "Our certified project management team oversees the implementation of cybersecurity solutions, ensuring adherence to timelines and budgets. We guarantee transparent communication and effective coordination among stakeholders.",
+        title: t('cyber_2'),
+        content: t('cyber_2_content'),
     },
     {
         id: 3,
-        title: "Security Audits",
-        content: "We offer comprehensive security audits to identify vulnerabilities and assess the effectiveness of existing controls. Our detailed reports provide practical recommendations to enhance your organization’s security posture.",
+        title: t('cyber_3'),
+        content: t('cyber_3_content'),
     },
     {
         id: 4,
-        title: "Technical Assistance",
-        content: "We provide specialized technical support for the implementation and management of cybersecurity solutions. Our experts are available to quickly resolve issues and ensure the smooth operation of your security systems.",
+        title: t('cyber_4'),
+        content: t('cyber_4_content'),
     },
     {
         id: 5,
-        title: "Training and Awareness",
-        content: "We offer tailored training programs to raise awareness among your teams about cybersecurity challenges. Our interactive sessions cover best practices, threat detection, and behaviors to adopt to minimize risks, thereby strengthening the culture of security within your organization.",
+        title: t('cyber_5'),
+        content: t('cyber_5_content'),
     },
     {
         id: 6,
-        title: "Incident Management and Remediation",
-        content: "We provide a structured approach to incident management, helping organizations respond effectively to security breaches. Our services include incident detection, analysis, containment, and recovery, along with remediation strategies to prevent future occurrences.",
+        title: t('cyber_6'),
+        content: t('cyber_6_content'),
     },
-]
+  ]
 
-function CAboutUs() {
   return (
     <div 
-        id="about Us"
+        id="about"
         className="py-20 space-y-20"
     >
       {/* Tech Leads Section */}
       <section className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white mb-10">
-          About Us
+          {t('about')}
         </h2>
         <h6 className="text-4xl md:text-5xl lg:text-3xl text-center text-white mb-10">
-            Cybersecurity Offerings
+            {t('cyber')}
         </h6>
         <div className="relative h-20 mb-10">
           <SparklesEffect />

@@ -9,14 +9,17 @@ import client from "../../assets/Ceven/approches/client[1].png";
 import innovation from "../../assets/Ceven/approches/innovation[1].png";
 import collaboration from "../../assets/Ceven/approches/collaboration[1].png";
 import quality from "../../assets/Ceven/approches/diamond[1].png";
+import { useLanguage } from "../../LanguageContext.jsx";
 
 export function CanvasRevealEffectDemo() {
+  const {t} = useLanguage();
+  
   return (
     <div className="py-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center dark:bg-richBlack xl:w-[80rem] lg:-ml-20 md:w-auto mx-auto px-8 hover:cursor-pointer">
       <Card
-        title="Client-Centric"
+        title={t('CApproach_client')}
         icon={<img src={client} alt="" className="mx-auto h-16 lg:h-20 " />}
-        description="We tailor solutions to your needs, ensuring they fit your requirements."
+        description={t('CApproach_client_content')}
         textColor="#748CAB"
       >
         <CanvasRevealEffect
@@ -25,9 +28,9 @@ export function CanvasRevealEffectDemo() {
         />
       </Card>
       <Card
-        title="Innovation-Driven"
+        title={t('CApproach_innovation')}
         icon={<img src={innovation} alt="" className="mx-auto h-16 lg:h-20" />}
-        description="We use the latest tech to provide cutting-edge solutions."
+        description={t('CApproach_innovation_content')}
         textColor="#748CAB"
       >
         <CanvasRevealEffect
@@ -42,11 +45,11 @@ export function CanvasRevealEffectDemo() {
         <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
       </Card>
       <Card
-        title="Collaborative"
+        title={t('CApproach_collaborative')}
         icon={
           <img src={collaboration} alt="" className="mx-auto h-16 lg:h-20" />
         }
-        description="We work closely with you, ensuring transparency throughout."
+        description={t('CApproach_collaborative_cotent')}
         textColor="#748CAB"
       >
         <CanvasRevealEffect
@@ -56,9 +59,9 @@ export function CanvasRevealEffectDemo() {
         />
       </Card>
       <Card
-        title="Quality-Focused"
+        title= {t('CApproach_quality')}
         icon={<img src={quality} alt="" className="mx-auto h-16 lg:h-20" />}
-        description="We prioritize quality, ensuring robust and reliable software."
+        description = {t('CApproach_quality_content')}
         textColor="#748CAB"
       >
         <CanvasRevealEffect

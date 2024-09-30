@@ -3,8 +3,11 @@ import { Link as ScrollLink } from "react-scroll";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import {LanguageDropdown} from "./LanguageDropdown";
+import { useLanguage } from "../../LanguageContext";
 
 export default function CNav() {
+  const {t} = useLanguage();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -61,19 +64,19 @@ export default function CNav() {
                 style={{opacity: 1}}
               />
             </Link>
-
             {/* Navbar for Large Screens */}
             <div className="hidden lg:flex items-center">
+                <LanguageDropdown/>
               <div className="bg-richBlack shadow-lg">
                 <div className="flex justify-center space-x-8 py-4 px-8">
                   {[
-                    "services",
+                    'service',
                     // "teams",
-                    "contact",
-                    "testimonials",
-                    "projects",
-                    "approach",
-                    "about Us",
+                    'contact',
+                    'client_review',
+                    'projects',
+                    'approach',
+                    'about',
                   ].map((item) => (
                     <ScrollLink
                       key={item}
@@ -83,7 +86,7 @@ export default function CNav() {
                       className="text-gray-300 text-lg xl:text-xl font-semibold hover:text-platinum transition-colors duration-300 ease-linear group"
                     >
                       <span className="relative text-sm xl:text-base">
-                        {item.charAt(0).toUpperCase() + item.slice(1)}
+                        {t(item).charAt(0).toUpperCase() + t(item).slice(1)}
                         <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-silverLakeBlue transition-all duration-300 group-hover:w-full"></span>
                       </span>
                     </ScrollLink>

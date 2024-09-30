@@ -1,10 +1,11 @@
 import { SparklesCore } from "../ui/sparkles.jsx";
 import { useState, useEffect } from "react";
 import Carousel from "./Carousel.jsx";
+import { useLanguage } from "../../LanguageContext.jsx";
 
 export default function CProjects() {
   const [isMobile, setIsMobile] = useState(false);
-
+  const {t} = useLanguage();
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
@@ -24,7 +25,7 @@ export default function CProjects() {
       >
         {/* Heading */}
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white relative z-20 mb-4 sm:mb-6 md:mb-8">
-          Projects
+          {t('projects')}
         </h1>
         {/* Decorative Elements */}
         <div className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[600px] h-0 relative mb-4 sm:mb-6 md:mb-8">

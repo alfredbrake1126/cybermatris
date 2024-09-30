@@ -83,9 +83,11 @@
 
 import { SparklesCore } from "../../components/ui/sparkles.jsx";
 import { CanvasRevealEffectDemo } from "./CanvasRevealEffect.jsx";
+import { useLanguage } from "../../LanguageContext.jsx";
 // import { CanvasRevealEffectDemo } from "./CanvasRevealEffectDemo.jsx";
 
 function CApproach() {
+  const {t} = useLanguage();
   return (
     <div
       id="approach"
@@ -93,7 +95,7 @@ function CApproach() {
     >
       <div className="w-full bg-richBlack flex flex-col items-center justify-center overflow-hidden rounded-md px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center text-white relative z-20 mb-2 sm:mb-4">
-          Our Approach
+          {t('CApproach')}
         </h1>
 
         {/* Decorative Elements */}

@@ -1,4 +1,8 @@
+import { useLanguage } from "../../LanguageContext";
+
 function CFooter() {
+  const {t} = useLanguage();
+
   return (
     <>
       <div
@@ -7,16 +11,19 @@ function CFooter() {
       >
         <div className="mt-7 flex flex-col space-y-2 text-center md:text-left pt-5 w-full md:w-auto">
           <div className="text-chamBray text-xl md:text-2xl font-semibold underline underline-offset-4">
-            Our Address
+            {t('our_address')}
           </div>
           <div className="text-white text-base md:text-lg font-medium">
-          Paris champs Élysée
+            Paris champs Élysée
+          </div>
+          <div className="text-white text-base md:text-lg font-medium">
+            Armentieres 59280
           </div>
         </div>
 
         <div className="mt-7 flex flex-col space-y-2 text-center md:text-left pt-5 w-full md:w-auto">
           <div className="text-chamBray text-xl md:text-2xl font-semibold underline underline-offset-4">
-            Contact Us
+            {t('contact_us')}
           </div>
           <div className="text-white text-base md:text-lg font-medium">
             <a
@@ -38,7 +45,7 @@ function CFooter() {
       </div>
       <div className="w-full text-center py-4 px-4 md:px-0">
         <div className="text-white text-base md:text-lg font-medium">
-          &copy; {new Date().getFullYear()} Cybermatris. All rights reserved.
+          &copy; {new Date().getFullYear()} {t('copyright')}
         </div>
       </div>
     </>

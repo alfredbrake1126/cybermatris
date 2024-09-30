@@ -12,6 +12,7 @@ import moiz from "../../assets/team/moiz.jpg";
 import waheed from "../../assets/team/Waheed.jpg";
 import haseeb from "../../assets/team/haeeb.jpg";
 import awais from "../../assets/team/awais.jpg";
+import { useLanguage } from "../../LanguageContext";
 
 const leaders = [
   {
@@ -78,12 +79,13 @@ const team = [
 ];
 
 function CTeam() {
+  const {t} = useLanguage();
   return (
     <div className="py-20 space-y-20">
       {/* Tech Leads Section */}
       <section className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white mb-10">
-          Our Tech Leads
+          {t('our_tech_leads')}
         </h2>
         <div className="relative h-20 mb-10">
           <SparklesEffect />

@@ -5,9 +5,11 @@ import ml from "../../assets/services/reshot-icon-wisdom-PT6ED7ZAQG-daae8.svg";
 import devops from "../../assets/services/reshot-icon-control-settings-MDG6WHZC7X-f25e1.svg";
 import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 import { SparklesCore } from "../ui/sparkles";
+import { useLanguage } from "../../LanguageContext";
 
 function Services() {
   const [isMobile, setIsMobile] = useState(false);
+  const {t} = useLanguage();
 
   useEffect(() => {
     const handleResize = () => {
@@ -24,41 +26,45 @@ function Services() {
     {
       id: 1,
       image: web,
-      title: "Web Development",
+      title: t('service_1_title'),
       details: [
-        "Responsive Design",
-        "E-commerce Solutions",
-        "SEO Optimization",
-        "CMS",
+        t('service_1_details_1'),
+        t('service_1_details_2'),
+        t('service_1_details_3'),
+        t('service_1_details_4'),
       ],
     },
     {
       id: 2,
       image: app,
-      title: "App Development",
+      title: t('service_2_title'),
       details: [
-        "Cross-Platform Apps",
-        "User Experience Design",
-        "API Integration",
-        "Performance Optimization",
+        t('service_2_details_1'),
+        t('service_2_details_2'),
+        t('service_2_details_3'),
+        t('service_2_details_4'),
       ],
       imageStyle: "h-8 md:h-10",
     },
     {
       id: 3,
       image: ml,
-      title: "Machine Learning",
-      details: ["Predictive Analytics", "NLP", "Computer Vision", "Automation"],
+      title: t('service_3_title'),
+      details: [
+        t('service_3_details_1'), 
+        t('service_3_details_2'), 
+        t('service_3_details_3'), 
+        t('service_4_details_4')],
     },
     {
       id: 4,
       image: devops,
-      title: "DevOps",
+      title: t('service_4_title'),
       details: [
-        "CI/CD",
-        "Infrastructure as Code",
-        "Monitoring and Logging",
-        "Automated Testing",
+        t('service_4_details_1'),
+        t('service_4_details_2'),
+        t('service_4_details_3'),
+        t('service_4_details_4'),
       ],
     },
   ];
@@ -97,7 +103,7 @@ function Services() {
       >
         <div className="h-[30rem] md:h-[40rem] w-full bg-richBlack flex flex-col items-center justify-center overflow-hidden rounded-md">
           <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold text-center text-white relative z-20 mb-1 md:mb-2">
-            Our Services
+            {t('our_service')}
           </h1>
 
           {/* Decorative Elements */}
