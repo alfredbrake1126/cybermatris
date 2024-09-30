@@ -30,7 +30,7 @@ function Ceven() {
             <CTestimonials />
             <CProjects />
             {/* <Carousel/> */}
-            {/* <CTeam /> */}
+            <CTeam />
             <CAboutUs/>
             <CEleven />
           </div>

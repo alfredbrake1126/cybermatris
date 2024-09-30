@@ -5,6 +5,7 @@ import { Linkedin, Mail } from "lucide-react";
 
 // Import images
 import CEO from "../../assets/CEO CTO/malaika (2).jpg";
+import tech_lead from "../../assets/CEO CTO/tech_lead.jpg";
 import CTO from "../../assets/CEO CTO/ajmaledit.jpg";
 import ehsan from "../../assets/team/ehsan1.jpg";
 import moiz from "../../assets/team/moiz.jpg";
@@ -87,15 +88,21 @@ function CTeam() {
         <div className="relative h-20 mb-10">
           <SparklesEffect />
         </div>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div>
+        <img
+          src={tech_lead}
+          // className="w-20 h-20 md:w-24 md:h-24 rounded-full mb-4"
+        />
+        </div>
+        {/* <div className="grid md:grid-cols-2 gap-8">
           {leaders.map((leader) => (
             <LeaderCard key={leader.id} {...leader} />
           ))}
-        </div>
+        </div> */}
       </section>
 
       {/* Tech Team Section */}
-      <section className="container mx-auto pb-4">
+      {/* <section className="container mx-auto pb-4">
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white mb-1">
           Our Tech Team
         </h2>
@@ -105,7 +112,7 @@ function CTeam() {
         <div className="flex flex-wrap justify-center">
           <AnimatedTooltip items={team} />
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

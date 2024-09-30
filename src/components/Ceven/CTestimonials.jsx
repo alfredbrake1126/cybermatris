@@ -1,7 +1,7 @@
 import { cn } from "../../lib/utils.js";
-import ehsan from "../../assets/team/ehsan1.jpg";
-import moiz from "../../assets/team/moiz.jpg";
-import ajmal from "../../assets/CEO CTO/ajmaledit.jpg";
+import anna from "../../assets/team/anna.jpg";
+import emily from "../../assets/team/emily.jpg";
+import jessica from "../../assets/team/jessica.jpg";
 import { SparklesCore } from "../ui/sparkles.jsx";
 import { useState, useEffect } from "react";
 
@@ -26,7 +26,7 @@ export default function CTestimonials() {
     >
       {/* Heading */}
       <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center text-white relative z-20 mb-8">
-        Testimonials
+        Client Reviews
       </h1>
 
       {/* Decorative Elements */}
@@ -121,40 +121,38 @@ export const Highlight = ({ children, className }) => {
 const CARDS = [
   {
     id: 0,
-    name: "Ehsan",
-    designation: "Senior React Developer",
-    image: ehsan,
+    name: "Anna",
+    designation: "Cybersecurity",
+    image: anna,
     content: (
-      <p style={{color: "white"}}>
-        Webiste is Ay hay hay!{" "}
-        <Highlight> Hun ki dasan tenu bus use karo hun anno !!</Highlight> in my
-        project!
+      <p style={{color: "white", fontSize: "13px"}}>
+        "We enlisted 'Cybermatris' to enhance our cybersecurity, and we couldn’t be happier. Their thorough analysis of our system uncovered several vulnerabilities we hadn't noticed. Thanks to their recommendations and quick implementation, we feel much more secure. A professional and responsive team that I highly recommend!"
       </p>
     ),
     rating: 5,
   },
   {
     id: 1,
-    name: "Moiz",
-    designation: "Senior Flutter Developer",
-    image: moiz,
+    name: "Jessica",
+    designation: "Web Development",
+    image: jessica,
     content: (
-      <p style={{color: "white"}}>
-        khara jatuk , <Highlight>I want to use them</Highlight> in my project.
+      <p style={{color: "white", fontSize: "13px"}}>
+        "The website that 'Cybermatris' developed for our company is simply stunning! They took all our requests into account and delivered a product that is not only visually appealing but also very functional. Communication was smooth throughout the project. Thank you for your excellent work!"
       </p>
     ),
-    rating: 4,
+    rating: 5,
   },
   {
     id: 2,
-    name: "M. Ajmal Malik",
-    designation: "Senior Citizen",
-    image: ajmal,
+    name: "Emily",
+    designation: "Infrastructure",
+    image: emily,
     content: (
-      <p style={{color: "white"}}>
-        Aaa website bus kamal di aa <Highlight> Chasss aa gae jeeh</Highlight>
+      <p style={{color: "white", fontSize: "13px"}}>
+        "We recently partnered with 'Cybermatris' to optimize our IT infrastructure. Their expertise allowed us to reduce costs while improving performance. The team was very engaged, and their ongoing support is a real asset. We are thrilled with the results and would recommend their services to other businesses without hesitation!"
       </p>
     ),
-    rating: 3,
+    rating: 5,
   },
 ];
