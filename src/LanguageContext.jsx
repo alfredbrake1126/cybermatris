@@ -12,8 +12,8 @@ const translations = {
       client_review: "Client Review",
       projects: "Projects",
       approach: "Approach",
-      CHero_trans: "Transforming Ideas into Innovative Software",
-      CHero_across: "Across All Platforms",
+      CHero_trans: "Transforming ideas into innovative software solutions, available on all platforms",
+      CHero_across: "and secured through strong cybersecurity expertise.",
       CHero_our: "Our development doesn't stop until our",
       CHero_our2: "clients are completely satisfied across all over the world",
   
@@ -77,6 +77,54 @@ const translations = {
       cyber_6: "Incident Management and Remediation",
       cyber_6_content: "We provide a structured approach to incident management, helping organizations respond effectively to security breaches. Our services include incident detection, analysis, containment, and recovery, along with remediation strategies to prevent future occurrences.", 
       
+      dpo_1: "Management of Data Subject Requests",
+      dpo_1_content: "Assist your clients in managing user rights (right of access, rectification, erasure, etc.).",
+    
+      dpo_2: "Develop Custom Tools",
+      dpo_2_content: "Tailored solutions: Create solutions adapted to each client's needs, such as simplified processing records, automated impact assessments, or standard procedures to respond to user rights.",
+    
+      penTest_1: "Web Application Pentest",
+      penTest_1_content: "Identifying vulnerabilities in web applications and their infrastructures.",
+    
+      penTest_2: "Network Pentest",
+      penTest_2_content: "Analysis of security flaws in internal and external networks.",
+    
+      penTest_3: "Mobile Pentest",
+      penTest_3_content: "Testing mobile applications to detect environment-specific vulnerabilities.",
+    
+      penTest_4: "Embedded Systems Pentest",
+      penTest_4_content: "Test the security of IoT devices or specific systems.",
+    
+      penTest_5: "Social Engineering Pentest",
+      penTest_5_content: "Simulate social engineering attacks to assess employee awareness.",
+    
+      penTest_6: "Periodic Intrusion Tests",
+      penTest_6_content: "Offer regular pentest services to continuously assess security.",
+    
+      penTest_7: "White Box, Black Box, or Grey Box Pentest",
+      penTest_7_content: "Differentiate your services based on the level of information provided for each test (full, partial, or no knowledge of the infrastructure).",
+    
+      penTest_8: "Red Teaming",
+      penTest_8_content: "A more aggressive and realistic approach, simulating an enterprise-wide attack to test the responsiveness of defense systems.",
+    
+      penTest_9: "Technical and Executive Report",
+      penTest_9_content: "Provide a clear and understandable report for both technical teams and management, with an analysis of identified vulnerabilities and recommendations for remediation.",
+    
+      penTest_10: "Proof of Concept (PoC)",
+      penTest_10_content: "For each critical vulnerability, provide a proof of concept demonstrating the feasibility of the attack.",
+    
+      penTest_11: "Remediation Plan",
+      penTest_11_content: "Help your clients implement corrective solutions after a pentest.",
+    
+      penTest_12: "Post-Remediation Pentest",
+      penTest_12_content: "Perform tests after the vulnerabilities are fixed to verify the effectiveness of the implemented measures.",
+    
+      penTest_13: "GDPR Compliance",
+      penTest_13_content: "Combine your pentest services with data protection to identify and fix security flaws that may impact data confidentiality.",
+    
+      penTest_14: "Vulnerability Reports",
+      penTest_14_content: "Offer intrusion tests as part of GDPR compliance, particularly for impact assessments related to the processing of personal data.",
+
       discover: "Discover Our Flagship Product",
       revolution: "Revolutionizing technology in one powerful application.",
       our_address: "Our Address",
@@ -92,8 +140,8 @@ const translations = {
       client_review: "Avis Client",
       projects: "Projets",
       approach: "Approche",
-      CHero_trans: "Transformer des idées en logiciels innovants",
-      CHero_across: "Sur toutes les plateformes",
+      CHero_trans: "Transformer des idées en solutions logicielles innovantes, disponibles sur toutes les plateformes et",
+      CHero_across: "sécurisées grâce à une forte expertise en cybersécurité.",
       CHero_our: "Notre développement ne s'arrête pas tant que nos",
       CHero_our2: "clients ne sont pas complètement satisfaits dans le monde entier",
   
@@ -156,7 +204,56 @@ const translations = {
       
       cyber_6: "Gestion et Remédiation des Incidents",
       cyber_6_content: "Nous fournissons une approche structurée pour la gestion des incidents, aidant les organisations à répondre efficacement aux violations de sécurité. Nos services comprennent la détection, l'analyse, la containment et la récupération des incidents, ainsi que des stratégies de remédiation pour prévenir de futures occurrences.", 
-      
+
+      dpo_1: "Gestion des demandes des personnes concernées",
+      dpo_1_content: "Assistez vos clients dans la gestion des droits des utilisateurs (droit d’accès, de rectification, d’effacement, etc.).", 
+
+      dpo_2: "Développer des outils personnalisés",
+      dpo_2_content: "Solutions sur mesure : Créez des solutions adaptées aux besoins de chaque client, comme des registres de traitement simplifiés, des analyses d'impact automatisées, ou des procédures standard pour répondre aux droits des utilisateurs.", 
+
+
+      penTest_1: "Pentest d’applications web",
+      penTest_1_content: " Identification des vulnérabilités dans les applications web et leurs infrastructures.",
+
+      penTest_2: "Pentest réseau",
+      penTest_2_content: "Analyse des failles de sécurité dans les réseaux internes et externes.", 
+
+      penTest_3: "Pentest mobile",
+      penTest_3_content: "Tests sur les applications mobiles pour détecter des vulnérabilités spécifiques à ces environnements.", 
+
+      penTest_4: "Pentest de systèmes embarqués",
+      penTest_4_content: "Tester la sécurité des dispositifs IoT ou des systèmes spécifiques.", 
+
+      penTest_5: "Pentest social engineering",
+      penTest_5_content: "Simuler des attaques basées sur l'ingénierie sociale pour évaluer la sensibilisation des employés.", 
+
+      penTest_6: "Tests d’intrusion périodiques",
+      penTest_6_content: "Offrez des services de pentest réguliers pour évaluer la sécurité de façon continue.", 
+
+      penTest_7: "Pentest en boîte blanche, boîte noire ou boîte grise",
+      penTest_7_content: "Différenciez vos services selon les niveaux d’information fournis pour chaque test (connaissance totale, partielle, ou aucune sur l'infrastructure).", 
+
+      penTest_8: "Red Teaming",
+      penTest_8_content: "Une approche plus agressive et réaliste, simulant une attaque à l’échelle de l’entreprise pour tester la réactivité des systèmes de défense.", 
+
+      penTest_9: "Rapport technique et exécutif",
+      penTest_9_content: "Fournissez un rapport clair et compréhensible aussi bien pour les équipes techniques que pour la direction, avec une analyse des vulnérabilités identifiées et des recommandations pour les corriger.", 
+
+      penTest_10: "Preuves de concept (PoC) ",
+      penTest_10_content: "Pour chaque vulnérabilité critique, fournissez une preuve de concept démontrant la faisabilité de l'attaque.", 
+
+      penTest_11: "Plan de remédiation",
+      penTest_11_content: "Aidez vos clients à implémenter des solutions correctives après un pentest.", 
+
+      penTest_12: "Pentest post-remédiation",
+      penTest_12_content: " Effectuez des tests après la correction des vulnérabilités pour vérifier l'efficacité des mesures mises en place.", 
+
+      penTest_13: "Conformité RGPD",
+      penTest_13_content: "Associez vos services de pentest à la protection des données pour identifier et corriger les failles de sécurité pouvant impacter la confidentialité des données.", 
+
+      penTest_14: "Rapports de vulnérabilités",
+      penTest_14_content: "Proposez des tests d’intrusion dans le cadre de la mise en conformité RGPD, en particulier pour les analyses d’impact liées aux traitements de données personnelles.", 
+
       discover: "Découvrez Notre Produit Phare",
       revolution: "Révolutionner la technologie dans une application puissante.",
       our_address: "Notre Adresse",
@@ -236,6 +333,54 @@ const translations = {
       
       cyber_6: "Gestión y Remediación de Incidentes",
       cyber_6_content: "Proporcionamos un enfoque estructurado para la gestión de incidentes, ayudando a las organizaciones a responder de manera efectiva a las brechas de seguridad. Nuestros servicios incluyen detección, análisis, contención y recuperación de incidentes, junto con estrategias de remediación para prevenir futuras ocurrencias.", 
+      
+      dpo_1: "Gestión de las solicitudes de los interesados",
+      dpo_1_content: "Ayuda a tus clientes a gestionar los derechos de los usuarios (derecho de acceso, rectificación, supresión, etc.).",
+    
+      dpo_2: "Desarrollar herramientas personalizadas",
+      dpo_2_content: "Soluciones a medida: Crea soluciones adaptadas a las necesidades de cada cliente, como registros de tratamiento simplificados, evaluaciones de impacto automatizadas o procedimientos estándar para responder a los derechos de los usuarios.",
+    
+      penTest_1: "Pentest de aplicaciones web",
+      penTest_1_content: "Identificación de vulnerabilidades en aplicaciones web y sus infraestructuras.",
+    
+      penTest_2: "Pentest de red",
+      penTest_2_content: "Análisis de fallos de seguridad en redes internas y externas.",
+    
+      penTest_3: "Pentest móvil",
+      penTest_3_content: "Pruebas en aplicaciones móviles para detectar vulnerabilidades específicas de estos entornos.",
+    
+      penTest_4: "Pentest de sistemas embebidos",
+      penTest_4_content: "Probar la seguridad de dispositivos IoT o sistemas específicos.",
+    
+      penTest_5: "Pentest de ingeniería social",
+      penTest_5_content: "Simular ataques basados en ingeniería social para evaluar la concienciación de los empleados.",
+    
+      penTest_6: "Pruebas de intrusión periódicas",
+      penTest_6_content: "Ofrece servicios de pentest regulares para evaluar la seguridad continuamente.",
+    
+      penTest_7: "Pentest en modo White Box, Black Box o Grey Box",
+      penTest_7_content: "Diferencia tus servicios según el nivel de información proporcionado para cada prueba (conocimiento total, parcial o ninguno sobre la infraestructura).",
+    
+      penTest_8: "Red Teaming",
+      penTest_8_content: "Un enfoque más agresivo y realista, simulando un ataque a gran escala para probar la capacidad de respuesta de los sistemas de defensa.",
+    
+      penTest_9: "Informe técnico y ejecutivo",
+      penTest_9_content: "Proporciona un informe claro y comprensible tanto para los equipos técnicos como para la dirección, con un análisis de las vulnerabilidades identificadas y recomendaciones para corregirlas.",
+    
+      penTest_10: "Proof of Concept (PoC)",
+      penTest_10_content: "Para cada vulnerabilidad crítica, proporciona una prueba de concepto demostrando la viabilidad del ataque.",
+    
+      penTest_11: "Plan de remediación",
+      penTest_11_content: "Ayuda a tus clientes a implementar soluciones correctivas después de un pentest.",
+    
+      penTest_12: "Pentest post-remediación",
+      penTest_12_content: "Realiza pruebas después de la corrección de las vulnerabilidades para verificar la eficacia de las medidas adoptadas.",
+    
+      penTest_13: "Conformidad RGPD",
+      penTest_13_content: "Asocia tus servicios de pentest a la protección de datos para identificar y corregir las vulnerabilidades que puedan afectar la confidencialidad de los datos.",
+    
+      penTest_14: "Informes de vulnerabilidades",
+      penTest_14_content: "Ofrece pruebas de intrusión en el marco de la conformidad RGPD, especialmente para las evaluaciones de impacto relacionadas con el tratamiento de datos personales.",
       
       discover: "Descubre Nuestro Producto Principal",
       revolution: "Revolucionando la tecnología en una aplicación poderosa.",
@@ -317,6 +462,54 @@ const translations = {
       cyber_6: "Vorfallmanagement und -behebung",
       cyber_6_content: "Wir bieten einen strukturierten Ansatz für das Vorfallmanagement, der Organisationen hilft, effektiv auf Sicherheitsverletzungen zu reagieren. Unsere Dienstleistungen umfassen die Erkennung, Analyse, Eindämmung und Wiederherstellung von Vorfällen sowie Remediationsstrategien zur Verhinderung zukünftiger Vorkommen.", 
       
+      dpo_1: "Management von Anfragen der betroffenen Personen",
+      dpo_1_content: "Unterstützen Sie Ihre Kunden bei der Verwaltung der Nutzerrechte (Zugriffsrecht, Berichtigungsrecht, Löschrecht, etc.).",
+
+      dpo_2: "Entwicklung maßgeschneiderter Werkzeuge",
+      dpo_2_content: "Maßgeschneiderte Lösungen: Erstellen Sie Lösungen, die an die Bedürfnisse jedes Kunden angepasst sind, wie z.B. vereinfachte Verarbeitungsvorgänge, automatisierte Auswirkungenabschätzungen oder Standardverfahren zur Beantwortung von Nutzerrechten.",
+
+      penTest_1: "Pentest von Webanwendungen",
+      penTest_1_content: "Identifizierung von Schwachstellen in Webanwendungen und deren Infrastrukturen.",
+
+      penTest_2: "Pentest von Netzwerken",
+      penTest_2_content: "Analyse von Sicherheitslücken in internen und externen Netzwerken.",
+
+      penTest_3: "Pentest von mobilen Geräten",
+      penTest_3_content: "Tests an mobilen Anwendungen zur Erkennung umgebungsspezifischer Schwachstellen.",
+
+      penTest_4: "Pentest von eingebetteten Systemen",
+      penTest_4_content: "Testen Sie die Sicherheit von IoT-Geräten oder spezifischen Systemen.",
+
+      penTest_5: "Pentest mit sozialer Manipulation",
+      penTest_5_content: "Simulieren Sie Angriffe mit sozialer Manipulation, um das Bewusstsein der Mitarbeiter zu bewerten.",
+
+      penTest_6: "Periodische Eindringtests",
+      penTest_6_content: "Bieten Sie regelmäßige Pentest-Dienste an, um die Sicherheit kontinuierlich zu bewerten.",
+
+      penTest_7: "Pentest in Weißbox-, Schwarzbox- oder Graubox-Form",
+      penTest_7_content: "Differenzieren Sie Ihre Dienste je nach dem Informationsniveau, das für jeden Test bereitgestellt wird (vollständiges Wissen, teilweise Kenntnis oder keine Kenntnis der Infrastruktur).",
+
+      penTest_8: "Red Teaming",
+      penTest_8_content: "Ein aggressiver und realistischeren Ansatz, der einen groß angelegten Angriff simuliert, um die Reaktionsfähigkeit der Abwehrsysteme zu testen.",
+
+      penTest_9: "Technischer und exekutiver Bericht",
+      penTest_9_content: "Liefern Sie einen klaren und verständlichen Bericht sowohl für technische Teams als auch für das Management mit einer Analyse der identifizierten Schwachstellen und Empfehlungen zur Behebung.",
+
+      penTest_10: "Proof of Concept (PoC)",
+      penTest_10_content: "Für jede kritische Schwachstelle liefern Sie einen Proof of Concept, der die Machbarkeit des Angriffs demonstriert.",
+
+      penTest_11: "Remediationsplan",
+      penTest_11_content: "Helfen Sie Ihren Kunden, nach einem Pentest Korrekturmaßnahmen umzusetzen.",
+
+      penTest_12: "Pentest nach Remedation",
+      penTest_12_content: "Führen Sie Tests nach der Behebung der Schwachstellen durch, um die Wirksamkeit der umgesetzten Maßnahmen zu überprüfen.",
+
+      penTest_13: "GDPR-Konformität",
+      penTest_13_content: "Kombinieren Sie Ihre Pentest-Dienste mit Datenschutz, um Sicherheitslücken zu identifizieren und zu beheben, die die Vertraulichkeit von Daten beeinträchtigen könnten.",
+
+      penTest_14: "Schwachstellenberichte",
+      penTest_14_content: "Bieten Sie Eindringtests im Rahmen der GDPR-Konformität an, insbesondere für die Auswirkungenabschätzungen im Zusammenhang mit der Verarbeitung personenbezogener Daten.",
+
       discover: "Entdecken Sie Unser Flaggschiff-Produkt",
       revolution: "Revolutionierung der Technologie in einer leistungsstarken Anwendung.",
       our_address: "Unsere Adresse",
@@ -397,6 +590,54 @@ const translations = {
       cyber_6: "Gestione e Remediazione degli Incidenti",
       cyber_6_content: "Forniamo un approccio strutturato alla gestione degli incidenti, aiutando le organizzazioni a rispondere in modo efficace alle violazioni della sicurezza. I nostri servizi includono la rilevazione, l'analisi, la contenimento e il recupero degli incidenti, insieme a strategie di remediazione per prevenire futuri eventi.", 
       
+      dpo_1: "Gestione delle richieste degli interessati",
+      dpo_1_content: "Assisti i tuoi clienti nella gestione dei diritti degli utenti (diritto di accesso, rettifica, cancellazione, ecc.).",
+    
+      dpo_2: "Sviluppare strumenti personalizzati",
+      dpo_2_content: "Soluzioni su misura: Crea soluzioni adattate alle esigenze di ogni cliente, come registri di trattamento semplificati, valutazioni d'impatto automatizzate o procedure standard per rispondere ai diritti degli utenti.",
+    
+      penTest_1: "Pentest di applicazioni web",
+      penTest_1_content: "Identificazione delle vulnerabilità nelle applicazioni web e nelle loro infrastrutture.",
+    
+      penTest_2: "Pentest di rete",
+      penTest_2_content: "Analisi delle vulnerabilità nelle reti interne ed esterne.",
+    
+      penTest_3: "Pentest mobile",
+      penTest_3_content: "Test delle applicazioni mobili per rilevare vulnerabilità specifiche di questi ambienti.",
+    
+      penTest_4: "Pentest di sistemi embedded",
+      penTest_4_content: "Testare la sicurezza dei dispositivi IoT o di sistemi specifici.",
+    
+      penTest_5: "Pentest di ingegneria sociale",
+      penTest_5_content: "Simulare attacchi basati sull'ingegneria sociale per valutare la consapevolezza dei dipendenti.",
+    
+      penTest_6: "Test di intrusione periodici",
+      penTest_6_content: "Offri servizi di pentest regolari per valutare la sicurezza in modo continuo.",
+    
+      penTest_7: "Pentest in modalità White Box, Black Box o Grey Box",
+      penTest_7_content: "Differenzia i tuoi servizi in base al livello di informazioni fornito per ogni test (conoscenza totale, parziale o nessuna dell'infrastruttura).",
+    
+      penTest_8: "Red Teaming",
+      penTest_8_content: "Un approccio più aggressivo e realistico, simulando un attacco a livello aziendale per testare la reattività dei sistemi di difesa.",
+    
+      penTest_9: "Rapporto tecnico ed esecutivo",
+      penTest_9_content: "Fornisci un rapporto chiaro e comprensibile sia per i team tecnici che per la direzione, con un'analisi delle vulnerabilità identificate e raccomandazioni per correggerle.",
+    
+      penTest_10: "Proof of Concept (PoC)",
+      penTest_10_content: "Per ogni vulnerabilità critica, fornisci una proof of concept che dimostri la fattibilità dell'attacco.",
+    
+      penTest_11: "Piano di remediation",
+      penTest_11_content: "Aiuta i tuoi clienti a implementare soluzioni correttive dopo un pentest.",
+    
+      penTest_12: "Pentest post-remediation",
+      penTest_12_content: "Esegui test dopo la correzione delle vulnerabilità per verificare l'efficacia delle misure adottate.",
+    
+      penTest_13: "Conformità GDPR",
+      penTest_13_content: "Associa i tuoi servizi di pentest alla protezione dei dati per identificare e correggere le vulnerabilità che potrebbero compromettere la riservatezza dei dati.",
+    
+      penTest_14: "Rapporti di vulnerabilità",
+      penTest_14_content: "Offri test di intrusione nell'ambito della conformità GDPR, in particolare per le valutazioni d'impatto relative al trattamento dei dati personali.",
+
       discover: "Scopri il Nostro Prodotto di Punta",
       revolution: "Rivoluzionare la tecnologia in un'applicazione potente.",
       our_address: "Il Nostro Indirizzo",

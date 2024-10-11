@@ -39,6 +39,91 @@ function CAboutUs() {
     },
   ]
 
+  const dpo = [
+    {
+      id: 1,
+        title: t('dpo_1'),
+        content: t('dpo_1_content'),
+    },
+    {
+      id: 2,
+        title: t('dpo_2'),
+        content: t('dpo_2_content'),
+    },
+  ]
+
+  const penTest = [
+    {
+      id: 1,
+        title: t('penTest_1'),
+        content: t('penTest_1_content'),
+    },
+    {
+      id: 2,
+        title: t('penTest_2'),
+        content: t('penTest_2_content'),
+    },
+    {
+      id: 3,
+        title: t('penTest_3'),
+        content: t('penTest_3_content'),
+    },
+    {
+      id: 4,
+        title: t('penTest_4'),
+        content: t('penTest_4_content'),
+    },
+    {
+      id: 5,
+        title: t('penTest_5'),
+        content: t('penTest_5_content'),
+    },
+    {
+      id: 6,
+        title: t('penTest_6'),
+        content: t('penTest_6_content'),
+    },
+    {
+      id: 7,
+        title: t('penTest_7'),
+        content: t('penTest_7_content'),
+    },
+    {
+      id: 8,
+        title: t('penTest_8'),
+        content: t('penTest_8_content'),
+    },
+    {
+      id: 9,
+        title: t('penTest_9'),
+        content: t('penTest_9_content'),
+    },
+    {
+      id: 10,
+        title: t('penTest_10'),
+        content: t('penTest_10_content'),
+    },
+    {
+      id: 11,
+        title: t('penTest_11'),
+        content: t('penTest_11_content'),
+    },
+    {
+      id: 12,
+        title: t('penTest_12'),
+        content: t('penTest_12_content'),
+    },
+    {
+      id: 13,
+        title: t('penTest_13'),
+        content: t('penTest_13_content'),
+    },
+    {
+      id: 14,
+        title: t('penTest_14'),
+        content: t('penTest_14_content'),
+    },
+  ]
   return (
     <div 
         id="about"
@@ -57,6 +142,34 @@ function CAboutUs() {
         </div>
         <div className="grid md:grid-cols-2 gap-8">
           {abuot_us.map((item) => (
+            <LeaderCard key={item.id} {...item} />
+          ))}
+        </div>
+      </section>
+
+      <section className="container mx-auto px-4">
+        <h6 className="text-4xl md:text-5xl lg:text-3xl text-center text-white mb-10">
+            {t('DPO')}
+        </h6>
+        <div className="relative h-20 mb-10">
+          <SparklesEffect />
+        </div>
+        <div className="grid md:grid-cols-2 gap-8">
+          {dpo.map((item) => (
+            <LeaderCard key={item.id} {...item} />
+          ))}
+        </div>
+      </section>
+
+      <section className="container mx-auto px-4">
+        <h6 className="text-4xl md:text-5xl lg:text-3xl text-center text-white mb-10">
+            {t('Pentest')}
+        </h6>
+        <div className="relative h-20 mb-10">
+          <SparklesEffect />
+        </div>
+        <div className="grid md:grid-cols-2 gap-8">
+          {penTest.map((item) => (
             <LeaderCard key={item.id} {...item} />
           ))}
         </div>
