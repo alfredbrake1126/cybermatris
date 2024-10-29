@@ -37,6 +37,11 @@ function CAboutUs() {
         title: t('cyber_6'),
         content: t('cyber_6_content'),
     },
+    {
+      id: 6,
+      title: t('cyber_7'),
+      content: t('cyber_7_content'),
+    },
   ]
 
   const dpo = [

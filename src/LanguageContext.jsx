@@ -76,6 +76,9 @@ const translations = {
       
       cyber_6: "Incident Management and Remediation",
       cyber_6_content: "We provide a structured approach to incident management, helping organizations respond effectively to security breaches. Our services include incident detection, analysis, containment, and recovery, along with remediation strategies to prevent future occurrences.", 
+
+      cyber_7: "GRC",
+      cyber_7_content: "Governance support to help companies structure and optimize their strategic decision-making. The approach includes the evaluation of internal processes, the implementation of adapted policies and procedures, as well as the creation of effective governance committees.", 
       
       dpo_1: "Management of Data Subject Requests",
       dpo_1_content: "Assist your clients in managing user rights (right of access, rectification, erasure, etc.).",
@@ -205,6 +208,9 @@ const translations = {
       cyber_6: "Gestion et Remédiation des Incidents",
       cyber_6_content: "Nous fournissons une approche structurée pour la gestion des incidents, aidant les organisations à répondre efficacement aux violations de sécurité. Nos services comprennent la détection, l'analyse, la containment et la récupération des incidents, ainsi que des stratégies de remédiation pour prévenir de futures occurrences.", 
 
+      cyber_7: "GRC",
+      cyber_7_content: "Un accompagnement en gouvernance pour aider les entreprises à structurer et à optimiser leur prise de décision stratégique. L’approche inclut l’évaluation des processus internes, la mise en place de politiques et de procédures adaptées, ainsi que la création de comités de gouvernance efficaces.", 
+
       dpo_1: "Gestion des demandes des personnes concernées",
       dpo_1_content: "Assistez vos clients dans la gestion des droits des utilisateurs (droit d’accès, de rectification, d’effacement, etc.).", 
 
@@ -333,6 +339,9 @@ const translations = {
       
       cyber_6: "Gestión y Remediación de Incidentes",
       cyber_6_content: "Proporcionamos un enfoque estructurado para la gestión de incidentes, ayudando a las organizaciones a responder de manera efectiva a las brechas de seguridad. Nuestros servicios incluyen detección, análisis, contención y recuperación de incidentes, junto con estrategias de remediación para prevenir futuras ocurrencias.", 
+
+      cyber_7: "GRC",
+      cyber_7_content: "Un acompañamiento en gobernanza para ayudar a las empresas a estructurar y optimizar su toma de decisiones estratégicas. El enfoque incluye la evaluación de los procesos internos, la implementación de políticas y procedimientos adecuados, así como la creación de comités de gobernanza eficaces.",
       
       dpo_1: "Gestión de las solicitudes de los interesados",
       dpo_1_content: "Ayuda a tus clientes a gestionar los derechos de los usuarios (derecho de acceso, rectificación, supresión, etc.).",
@@ -462,6 +471,9 @@ const translations = {
       cyber_6: "Vorfallmanagement und -behebung",
       cyber_6_content: "Wir bieten einen strukturierten Ansatz für das Vorfallmanagement, der Organisationen hilft, effektiv auf Sicherheitsverletzungen zu reagieren. Unsere Dienstleistungen umfassen die Erkennung, Analyse, Eindämmung und Wiederherstellung von Vorfällen sowie Remediationsstrategien zur Verhinderung zukünftiger Vorkommen.", 
       
+      cyber_7: "GRC",
+      cyber_7_content: "Eine Begleitung in der Governance, um Unternehmen dabei zu unterstützen, ihre strategische Entscheidungsfindung zu strukturieren und zu optimieren. Der Ansatz umfasst die Bewertung interner Prozesse, die Einführung geeigneter Richtlinien und Verfahren sowie die Einrichtung effektiver Governance-Ausschüsse.",      
+
       dpo_1: "Management von Anfragen der betroffenen Personen",
       dpo_1_content: "Unterstützen Sie Ihre Kunden bei der Verwaltung der Nutzerrechte (Zugriffsrecht, Berichtigungsrecht, Löschrecht, etc.).",
 
@@ -590,6 +602,9 @@ const translations = {
       cyber_6: "Gestione e Remediazione degli Incidenti",
       cyber_6_content: "Forniamo un approccio strutturato alla gestione degli incidenti, aiutando le organizzazioni a rispondere in modo efficace alle violazioni della sicurezza. I nostri servizi includono la rilevazione, l'analisi, la contenimento e il recupero degli incidenti, insieme a strategie di remediazione per prevenire futuri eventi.", 
       
+      cyber_7: "GRC",
+      cyber_7_content: "Un supporto nella governance per aiutare le aziende a strutturare e ottimizzare il processo decisionale strategico. L'approccio include la valutazione dei processi interni, l'implementazione di politiche e procedure adeguate e la creazione di comitati di governance efficaci.",      
+
       dpo_1: "Gestione delle richieste degli interessati",
       dpo_1_content: "Assisti i tuoi clienti nella gestione dei diritti degli utenti (diritto di accesso, rettifica, cancellazione, ecc.).",
     
