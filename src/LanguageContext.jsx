@@ -260,7 +260,7 @@ const translations = {
       penTest_14: "Rapports de vulnérabilités",
       penTest_14_content: "Proposez des tests d’intrusion dans le cadre de la mise en conformité RGPD, en particulier pour les analyses d’impact liées aux traitements de données personnelles.", 
 
-      discover: "Découvrez Notre Produit Phare",
+      discover: "Découvrez nos services phares",
       revolution: "Révolutionner la technologie dans une application puissante.",
       our_address: "Notre Adresse",
       contact_us: "Contactez-nous",
