@@ -53,7 +53,7 @@ export default function CNav() {
       style={{ transform: isVisible ? "translateY(0)" : "translateY(-100%)" }}
     >
       <div className="bg-richBlack shadow-lg lg:border-b-2 lg:border-b-silverLakeBlue rounded-b-full">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="mx-0 px-4 sm:px-8 lg:px-12 w-full">
           <div className="flex items-center justify-between py-2 lg:py-4">
             {/* Logo */}
             <Link to="/" className="flex-shrink-0" onClick={() => window.scrollTo(0, 0)}>
@@ -71,9 +71,9 @@ export default function CNav() {
                 <div className="flex justify-center space-x-8 py-4 px-8">
                   {[
                     'service',
-                    // "teams",
                     'contact',
-                    'client_review',
+                    'reviews',
+                    'training',
                     'projects',
                     'approach',
                     'about',
@@ -83,7 +83,7 @@ export default function CNav() {
                       to={item}
                       smooth={true}
                       duration={500}
-                      className="text-gray-300 text-lg xl:text-xl font-semibold hover:text-platinum transition-colors duration-300 ease-linear group"
+                      className="text-gray-300 text-lg xl:text-xl font-semibold hover:text-platinum transition-colors duration-300 ease-linear group cursor-pointer"
                     >
                       <span className="relative text-sm xl:text-base">
                         {t(item).charAt(0).toUpperCase() + t(item).slice(1)}
@@ -157,13 +157,13 @@ export default function CNav() {
             </motion.button>
             <motion.div className="flex flex-col items-center space-y-6 mt-16">
               {[
-                "services",
-                "teams",
-                "contact",
-                "testimonials",
-                "projects",
-                "approach",
-                "about"
+                'service',
+                'contact',
+                'reviews',
+                'training',
+                'projects',
+                'approach',
+                'about',
               ].map((item, index) => (
                 <motion.div
                   key={item}

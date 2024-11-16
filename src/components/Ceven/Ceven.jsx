@@ -10,6 +10,7 @@ import CFooter from "./CFooter";
 import { BackgroundBeams } from "../../components/ui/background-beams.jsx";
 import CTestimonials from "./CTestimonials.jsx";
 import CProjects from "./CProjects.jsx";
+import CTraining from "./CTraining.jsx";
 // import { CardStackDemo } from "./CTestimonials.jsx";
 
 function Ceven() {
@@ -28,6 +29,7 @@ function Ceven() {
             <Services />
             {/* <CardStackDemo /> */}
             <CTestimonials />
+            <CTraining />
             <CProjects />
             {/* <Carousel/> */}
             <CTeam />
